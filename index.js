@@ -22,7 +22,7 @@ fetch(url)
       .attr("width", width)
       .attr("height", height);
 
-    // xAxis
+
     const xScale = d3
       .scaleTime()
       .domain([
